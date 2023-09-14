@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Building Assessment</h1>
+        {% if has_rouge %}
+        <p>Building Assessment: Red/Rouge : Les batiments de la categorie rouge ne sont plus accessibles.</p>
+        {% elif has_jaune %}
+        <p>Building Assessment: Yellow/Jaune  : Les batiments de la categorie jaune ne sont accessibles que pour des motifs importants et avec l assentiment de l organe de conduite competent.</p>
+        {% else %}
+        <p>Building Assessment: Green/Vert  : Les batiments de la categorie verte sont accessibles sans restriction.</p>
+        {% endif %}
+    
+        <form action="/" method="GET">
+            <input type="hidden" name="new_assessment" value="true">
+            <input type="submit" value="Start a New Assessment">
+        </form>
+    </div>
+</body>
+</html>

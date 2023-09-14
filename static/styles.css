@@ -1,0 +1,50 @@
+/* Set a calming background gradient */
+body {
+    background: linear-gradient(to bottom, #f0f5f9, #c5d7e7);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the container for questions and answers */
+.container {
+    width: 80%; /* Set a fixed width */
+    max-height: 500px; /* Set a fixed max height */
+    overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95); /* Lighten the background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the question text */
+.question-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Darken the text color */
+}
+
+/* Style the radio buttons and labels */
+input[type="radio"] {
+    display: none;
+}
+label {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f2f2f2; /* Set a calming background color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Add transition effects */
+}
+label:hover {
+    background: #ddd; /* Lighten the background color on hover */
+    color: #333; /* Darken the text color on hover */
+}
+input[type="radio"]:checked + label {
+    background: #3498db; /* Set a background color for selected option */
+    color: #fff; /* Text color for selected option */
+}

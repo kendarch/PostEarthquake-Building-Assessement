@@ -1,0 +1,37 @@
+Category,Description,a,b,c,non
+PAROIS PORTEUSES,Fissures capillaires ?  De minuscules fissures en forme de cheveux dans la structure souvent non visibles immédiatement?,Vert,Vert,Jaune,Vert
+PAROIS PORTEUSES,Fissures ouvertes superficielles (1-2mm) ?  Des fissures légèrement plus grandes mesurant généralement de 1 à 2 millimètres de large en surface?,Vert,Jaune,Rouge,Vert
+PAROIS PORTEUSES,Fissures ouvertes et traversantes ?   Des fissures plus importantes qui traversent la structure pas seulement en surface?,Vert,Rouge,Rouge,Vert
+PAROIS PORTEUSES, Ecaillage superficiel ?  Le décollement ou l'écaillage superficiel du matériau?,Vert,Vert,Vert,Vert
+PAROIS PORTEUSES,Cloisons déformées / désolidarisées ?  Des cloisons déformées ou détachées?,Vert,Rouge,Rouge,Vert
+PAROIS PORTEUSES,Murs désolidarisés aux angles du bâtiment ?  Des murs détachés aux coins du bâtiment?,Jaune,Rouge,Rouge,Vert
+PAROIS PORTEUSES,Murs pignons désolidarisés ?  Les murs pignons (murs triangulaires d'extrémité d'un bâtiment) qui se sont détachés?,Vert,Jaune,Jaune,Vert
+PAROIS PORTEUSES,Murs pignons détruits ?  Les murs pignons qui ont été détruits ou gravement endommagés?,Vert,Jaune,Rouge,Vert
+PAROIS PORTEUSES,Pans de murs détruits ?  Des parties de murs qui se sont effondrées ou ont été gravement endommagées?,Jaune,Rouge,Rouge,Vert
+PAROIS PORTEUSES,Profond éclatement du béton des colonnes (1-2mm) ?  De profondes fissures ou éclatements (de 1 à 2 millimètres de large) dans les colonnes en béton?,Vert,Jaune,Rouge,Vert
+PAROIS PORTEUSES,Colonnes avec fers d'armature déformés ?  Des colonnes avec des barres d'armature déformées?,Vert,Jaune,Rouge,Vert
+PAROIS PORTEUSES,Profond éclatement du béton des poutres ?  De profondes fissures ou éclatements dans les poutres en béton?,Jaune,Jaune,Rouge,Vert
+PAROIS PORTEUSES,Poutres avec fers d'armature déformés ?  Des poutres avec des barres d'armature déformées?,Jaune,Jaune,Rouge,Vert
+PAROIS PORTEUSES,Colonnes inclinées ?  Des colonnes qui penchent ou ne sont pas verticales?,Jaune,Rouge,Rouge,Vert
+PAROIS PORTEUSES,Rupture et instabilité de colonnes ?  Des colonnes qui sont cassées ou instables?,Rouge,Rouge,Rouge,Vert
+PAROIS PORTEUSES,Rupture de poutres / sommiers ?  Une rupture ou une instabilité des poutres ou sommiers?,Jaune,Rouge,Rouge,Vert
+PAROIS PORTEUSES,Fers d’armature rompus ?  Des barres d'armature cassées?,Vert,Jaune,Rouge,Vert
+PAROIS PORTEUSES,Etage(s) effondré(s) ?  Un ou plusieurs étages qui se sont effondrés?,Rouge,Rouge,Rouge,Vert
+PAROIS PORTEUSES,Effondrement total ?  Un effondrement structurel complet?,Rouge,Rouge,Rouge,Vert
+DALLES ET TOITURES,Fissures capillaires ?  De minuscules fissures en forme de cheveux dans la structure, souvent non visibles immédiatement?,Vert,Vert,Jaune,Vert
+DALLES ET TOITURES,Fissures ouvertes superficielles (1-2mm) ?  Des fissures légèrement plus grandes, mesurant généralement de 1 à 2 millimètres de large, en surface?,Vert,Jaune,Rouge,Vert
+DALLES ET TOITURES,Fissures ouvertes et traversantes ?  Des fissures plus importantes qui traversent la structure, pas seulement en surface?Vert,Rouge,Rouge,Vert
+DALLES ET TOITURES,Ecaillage superficiel ?  Le décollement ou l'écaillage superficiel du matériau?,Vert,Vert,Vert,Vert
+DALLES ET TOITURES,Planchers déformés / désolidarisés ?  Des planchers déformés ou détachés?,Vert,Rouge,Rouge,Vert
+DALLES ET TOITURES,Faîte avec joints désolidarisés ?  Le sommet de la charpente a des joints détachés?,Jaune,Rouge,Rouge,Vert
+DALLES ET TOITURES,Liaisons avec parois désolidarisées ?  Les liaisons avec des murs détachés?,Vert,Jaune,Jaune,Vert
+DALLES ET TOITURES,Pans de dalle/toiture détruits ?  Des sections de la dalle ou du toit qui ont été détruites?,Jaune,Rouge,Rouge,Vert
+ELEMENTS NON PORTEURS,Fissures capillaires ?  De minuscules fissures en forme de cheveux dans la structure, souvent non visibles immédiatement?,Vert,Vert,Jaune,Vert
+ELEMENTS NON PORTEURS,Fissures ouvertes superficielles (1-2mm) ?  Des fissures légèrement plus grandes, mesurant généralement de 1 à 2 millimètres de large, en surface?,Vert,Vert,Vert,Vert
+ELEMENTS NON PORTEURS,Fissures ouvertes et traversantes ?  Des fissures plus importantes qui traversent la structure, pas seulement en surface?,Vert,Vert,Jaune,Vert
+ELEMENTS NON PORTEURS,Effritement superficiel ?  La détérioration de la surface, souvent impliquant un effritement ou une désintégration?,Vert,Vert,Vert,Vert
+ELEMENTS NON PORTEURS,Pans de murs écroulés ?  Des sections de murs qui se sont effondrées?,Vert,Jaune,Jaune,Vert
+ELEMENTS NON PORTEURS,Cheminées désolidarisées / tombées ?  Des cheminées détachées ou tombées?,Vert,Vert,Vert,Vert
+ELEMENTS NON PORTEURS, Tuiles désolidarisées / tombées ?  Des tuiles qui se sont détachées ou sont tombées?,Vert,Vert,Vert,Vert
+ELEMENTS NON PORTEURS,Façades / revêtements désolidarisés / tombés ?  Des façades ou des revêtements de surface qui se sont détachés ou sont tombés?,Vert,Jaune,Jaune,Vert
+ELEMENTS NON PORTEURS,Gouttières désolidarisées / tombées ?  Des gouttières détachées ou tombées?,Vert,Vert,Jaune,Vert

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Building Safety Assessement Questionnaire</title>
+    <title>Title 2: (Post-Earthquake Analysis)</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="question-text">Building Safety Assessement Questionnaire : Post-Earthquake Damages</h1>
+        <p>{{ question['Category'] }}</p>
+        <p>{{ question['Description'] }}</p>
+        <form action="/answer" method="POST">
+            <input type="radio" name="choice" value="non" id="choice-non">
+            <label for="choice-non">non : pas de dommages ou presque</label>
+            <input type="radio" name="choice" value="a" id="choice-a">
+            <label for="choice-a">a : dommages a quelques elements isoles (jusqua 10%)</label>
+            <input type="radio" name="choice" value="b" id="choice-b">
+            <label for="choice-b">b : dommages a de nombreux elements (de 10 a 50%)</label>
+            <input type="radio" name="choice" value="c" id="choice-c">
+            <label for="choice-c">c : dommages a la plupart des elements (plus de 50%)</label>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
